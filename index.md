@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## About
 
-You can use the [editor on GitHub](https://github.com/hkasok/hkasok.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Assistant Professor at Mechanical Engineering Department, Tripura Institute of Technology.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Research Interest
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Fully Eulerian framework for fluid structure interaction using Finite element method
 
 ```markdown
 Syntax highlighted code block
