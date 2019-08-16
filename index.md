@@ -3,8 +3,8 @@
 
 # About
 
-Assistant Professor,
-Mechanical Engineering Department,
+Assistant Professor,<br/>
+Mechanical Engineering Department,<br/>
 Tripura Institute of Technology
 
 ## Research Insterest
