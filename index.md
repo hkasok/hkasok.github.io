@@ -11,7 +11,6 @@ Currently I am trying to develop a fully Eulerian framework for fluid structure 
 
 
 ## Contact:
-Mob: +918547360668 <br/>
 E-mail: harshinkamal@gmail.com
 
 
