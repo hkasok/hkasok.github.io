@@ -11,7 +11,7 @@ Currently I am trying to develop a fully Eulerian framework for fluid structure 
 
 
 ## Contact:
-ME 102,
+ME 102,<br/>
 Mechanical Engineering Department,<br/>
 Tripura Institute of Technology.<br/>
 E-mail: harshinkamal@gmail.com
