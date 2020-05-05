@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Degrees
 ======
 * B.Tech. in Mechanical Engineering, Govt. Engineering College, 2014
 * M.Tech. in Engineering Mechanics, Indian Institute of Technology, 2016
