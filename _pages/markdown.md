@@ -9,11 +9,11 @@ redirect_from:
 
 ## Contact adress
 
-ME 102,<br/>
-Mechanical Engineering Department,<br/>
-Tripura Institute of Technology,Agartala,<br/>
-Tripura-799009,<br/>
-India.<br/>
+ ME 102,<br/>
+ Mechanical Engineering Department,<br/>
+ Tripura Institute of Technology,Agartala,<br/>
+ Tripura-799009,<br/>
+ India.<br/>
 
-E-mail: harshinkamal@gmail.com
+ E-mail: harshinkamal@gmail.com
 
