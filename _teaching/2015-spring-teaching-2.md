@@ -1,20 +1,15 @@
 ---
-title: "Teaching experience 2"
+title: "Tripura Institute of Technology, Agartala"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Mechanical Engineering Department"
+date: 2018-01-01
+location: "Agartala, India"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Course Instructor: Engineering Mechanics, Finite element method, Strength of Materials, Advanced Strength of Materials. 
 
-Heading 1
+Udergraduate courses
 ======
 
-Heading 2
-======
-
-Heading 3
-======

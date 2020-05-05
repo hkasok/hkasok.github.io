@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Mechanical Engineering Department"
-date: 01-05-17
+date: 2017-05-17
 location: "Tiruchirappally, India"
 ---
 
