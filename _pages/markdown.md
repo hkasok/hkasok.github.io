@@ -7,7 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
-## Contact adress
+## Contact address
 
  ME 102,<br/>
  Mechanical Engineering Department,<br/>
