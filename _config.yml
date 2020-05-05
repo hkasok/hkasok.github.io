@@ -82,7 +82,8 @@ analytics:
 author:
   name             : "Harshin Kamal Asok"
   avatar           : "profile.png"
-  bio              : "Assistant Professor"
+  bio              : "Assistant Professor <br/>
+			Tripura Institute of Technology"
   location         : "Kozhikode"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -90,11 +91,11 @@ author:
   email            : "harshinkamal@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Harshin_Kamal_A"
   uri              :
-  bitbucket        :
+  bitbucket        : "https://bitbucket.org/hkabit/"
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/harshin.kamal"
   foursquare       :
   github           : "hkasok"
   google_plus      :
@@ -113,7 +114,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/harshinkamal"
   wikipedia        :
 
 
