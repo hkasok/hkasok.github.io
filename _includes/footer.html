@@ -1,24 +1,37 @@
-{% include base_path %}
+<footer>
+    {%- if (site.prev_next_buttons_location == 'bottom' or  site.prev_next_buttons_location =='both') and (previous_page or next_page) %}
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      {%- if next_page %}
+        <a href="{{ next_page.url | absolute_url }}" class="btn btn-neutral float-right" title="{{ next_page.title }}">Next <span class="icon icon-circle-arrow-right"></span></a>
+      {%- endif %}
+      {%- if previous_page %}
+        <a href="{{ previous_page.url | absolute_url }}" class="btn btn-neutral" title="{{ previous_page.title }}"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      {%- endif %}
+    </div>
+    {%- endif %}
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-    {% endif %}
-    {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-  </ul>
-</div>
+    <hr/>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+    <div role="contentinfo">
+      <p>
+        {%- if site.site_author %}
+          © Copyright {{ site.time | date: "%Y" }} {{ site.site_author }}.
+        {%- endif %}
+        {%- if site.github.build_revision %}
+          {%- if site.repo_url %}
+            <span class="commit">Revision <a href="{{ site.repo_url | url }}/commit/{{ site.github.build_revision }}" target="_blank"><code>{{ site.github.build_revision | truncate: 8, "" }}</code></a>.
+          {%- else %}
+            <span class="commit">Revision <code>{{ site.github.build_revision | truncate: 8, "" }}</code>.</span>
+          {%- endif %}
+        {%- endif %}
+      </p>
+    </div>
+    Built with
+    {%- if site.github %}
+    <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+    {%- else %}
+    <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
+    {%- endif %}
+    using a <a href="https://github.com/carlosperate/jekyll-theme-rtd" target="_blank">theme</a>
+    based on <a href="https://sphinx-rtd-theme.readthedocs.io" target="_blank">Read the Docs</a>.
+</footer>
