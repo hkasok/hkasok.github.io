@@ -14,7 +14,7 @@ in India. I enjoy being a researcher and I would like to be a researcher/profess
 in a good university with diverse international community. 
 Therefore, it was natural for me to go for a PhD in this stage of career
 
-![steps screenshot](assets/img/quick-start-steps.png)
+![steps screenshot](docs/assets/img/quick-start-steps.png)
 
 
 The Docs folder index page can be reached following
