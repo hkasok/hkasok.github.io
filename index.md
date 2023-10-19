@@ -6,11 +6,24 @@ nav_order: 1
 
 # Home
 
-This index page is only visible if developing the theme as Jekyll is served
-from the repository top directory.
+I am a PhD student at Flroida International University.
+My native place is Kozhikode in Kerala (a southern state of India). 
+I can speak Malayalam and English. After my bachelor’s and master’s degree 
+in engineering I worked in teaching and research positions for a few years 
+in India. I enjoy being a researcher and I would like to be a researcher/professor 
+in a good university with diverse international community. 
+Therefore, it was natural for me to go for a PhD in this stage of career
+
 
 The Docs folder index page can be reached following
 [this link](docs/index.html).
 
-In the normal GitHub Pages deployment the Docs index can be reached clicking
-on the home link at the top of the left navigation bar.
+Research interests
+I work in the interdisciplinary field of computational mechanics, which is a combination of engineering mechanics, computer science, 
+and applied mathematics. In some of the major projects I worked in the past, I developed numerical methods for fluid structure 
+interaction problems using finite element method in a monolithic fully Eulerian framework, used computational software 
+for heat exchanger designs and studied particle flow in polymer extrusion.
+
+Mail Address:
+10555 W. Flagler Street, Miami, FL 33174
+Email: hkamalas@fiu.edu
