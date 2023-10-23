@@ -20,7 +20,8 @@ Therefore, it was natural for me to go for a PhD in this stage of career
 The Docs folder index page can be reached following
 [this link](docs/index.html).
 
-Research interests
+##### Research interests
+
 I work in the interdisciplinary field of computational mechanics, which is a combination of engineering mechanics, computer science, 
 and applied mathematics. In some of the major projects I worked in the past, I developed numerical methods for fluid structure 
 interaction problems using finite element method in a monolithic fully Eulerian framework, used computational software 
@@ -28,4 +29,5 @@ for heat exchanger designs and studied particle flow in polymer extrusion.
 
 Mail Address:
 10555 W. Flagler Street, Miami, FL 33174
+
 Email: hkamalas@fiu.edu
