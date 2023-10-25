@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact (FAQs)
+title: Contact
 nav_order: 3
 ---
 
