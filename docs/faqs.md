@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is All This? (FAQs)
+title: Contact (FAQs)
 nav_order: 3
 ---
 
