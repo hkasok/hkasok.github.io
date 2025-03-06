@@ -6,7 +6,7 @@ remote_theme: carlosperate/jekyll-theme-rtd
 site_author: Harshin Kamal Asok
 repo_url: "https://github.com/hkasok/hkasok.github.io"
 edit_on_github: false
-github_docs_folder: true
+github_docs_folder: false
 sticky_navigation: true
 prev_next_buttons_location: bottom
 search_enabled: true
