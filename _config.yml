@@ -15,3 +15,9 @@ sticky_navigation: true
 prev_next_buttons_location: both
 search_enabled: true
 hljs_style: github-gist
+
+# Define Sidebar Navigation
+nav:
+  - Research: research.md
+  - Publications: publications.md
+  - Contact: contact.md
