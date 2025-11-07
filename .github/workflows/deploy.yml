@@ -1,12 +1,12 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy MkDocs site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Build and deploy when pushing to main branch
+      - main   # Change to 'master' if you're using master instead of main
 
 permissions:
-  contents: write
+  contents: write    # Required for pushing to gh-pages
 
 jobs:
   deploy:
@@ -25,6 +25,6 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Build and deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         run: |
           mkdocs gh-deploy --force
