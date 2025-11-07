@@ -4,16 +4,38 @@
     <meta charset="UTF-8">
     <title>Harshin Kamal Asok</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        nav { margin-bottom: 30px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 40px; 
+            line-height: 1.6; 
+        }
+        nav { 
+            margin-bottom: 30px; 
+        }
         nav a {
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
             color: #007acc;
         }
-        nav a:hover { text-decoration: underline; }
-        h1 { margin-bottom: 10px; }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ccc;
+        }
+        h1 {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -26,12 +48,24 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<h1>Harshin Kamal Asok</h1>
-<p><strong>PhD Student | Urban Heat Island | CFD | Green Infrastructure</strong></p>
-<p>
-    I am a researcher working on urban heat island mitigation, computational fluid dynamics 
-    (CFD), and nature-based solutions such as urban trees and green stormwater infrastructure.
-</p>
+<div class="container">
+    <!-- Left side photo -->
+    <div class="profile">
+        <img src="profile.jpg" alt="Profile Photo">
+    </div>
+
+    <!-- Right side text -->
+    <div>
+        <h1>Harshin Kamal Asok</h1>
+        <p><strong>PhD Student | Urban Heat Island | CFD | Green Infrastructure</strong></p>
+        <p>
+            I am a researcher working on urban heat island mitigation, computational fluid dynamics 
+            (CFD), and nature-based solutions such as urban trees and green stormwater infrastructure. 
+            My work combines field monitoring, numerical modeling, and data-driven approaches to improve 
+            urban thermal comfort.
+        </p>
+    </div>
+</div>
 
 </body>
 </html>
