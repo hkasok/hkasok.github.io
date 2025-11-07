@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Contact - Harshin Kamal Asok</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #007acc; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 40px; 
+            line-height: 1.6; 
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        nav { 
+            margin-bottom: 30px; 
+            background-color: #007acc;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        .content {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 700px;
+        }
+        h1 {
+            color: #004b7a;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        a.link {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a.link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -18,11 +61,24 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<h1>Contact</h1>
+<div class="content">
+    <h1>Contact</h1>
 
-<p><strong>Email:</strong> hkamalas@fiu.edu</p>
-<p><strong>GitHub:</strong> <a href="https://github.com/hkasok">https://github.com/hkasok</a></p>
-<p><strong>Location:</strong> Florida International University (FIU)</p>
+    <p>
+        I am currently a <strong>PhD Candidate in Civil and Environmental Engineering</strong> 
+        at <strong>Florida International University (FIU)</strong>.  
+        My research focuses on <em>urban heat island mitigation, computational fluid dynamics, and green infrastructure design</em>.  
+        Please feel free to reach out for collaborations, academic discussions, or project inquiries.
+    </p>
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:hkamalas@fiu.edu" class="link">hkamalas@fiu.edu</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/hkasok" target="_blank" class="link">github.com/hkasok</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/harshin-kamal-asok" target="_blank" class="link">linkedin.com/in/harshin-kamal-asok</a></p>
+        <p><strong>Institution:</strong> Department of Civil & Environmental Engineering, Florida International University</p>
+        <p><strong>Location:</strong> Miami, Florida, USA</p>
+    </div>
+</div>
 
 </body>
 </html>

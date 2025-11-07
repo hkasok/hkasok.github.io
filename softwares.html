@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Softwares - Harshin Kamal Asok</title>
+    <title>Softwares & Tools - Harshin Kamal Asok</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #007acc; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 40px; 
+            line-height: 1.6; 
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        nav { 
+            margin-bottom: 30px; 
+            background-color: #007acc;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        .content {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #004b7a;
+        }
+        h2 {
+            color: #007acc;
+            margin-top: 25px;
+        }
+        p {
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        a.repo-link {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a.repo-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -18,12 +64,59 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<h1>Softwares & Tools</h1>
-<ul>
-    <li>OpenFOAM radiation model customization</li>
-    <li>Python/MATLAB scripts for environmental data analysis</li>
-    <li>Upcoming GitHub repositories will be shared here</li>
-</ul>
+<div class="content">
+    <h1>Softwares & Tools</h1>
+
+    <p>
+        I actively develop and customize computational tools to support my research in 
+        <strong>urban heat island modeling</strong>, <strong>CFD simulation</strong>, and 
+        <strong>environmental data analysis</strong>. 
+        My focus is on creating flexible and efficient workflows that couple physical modeling 
+        with data-driven techniques.
+    </p>
+
+    <h2>1. OpenFOAM Customization</h2>
+    <p>
+        I maintain a modified branch of <strong>OpenFOAM</strong> that integrates 
+        immersed boundary formulations, radiative heat transfer, and vegetation parameterization. 
+        Key developments include:
+    </p>
+    <ul>
+        <li>Enhanced <strong>fvDOM solar radiation model</strong> with spectral bands and sky-view factor support.</li>
+        <li>Custom solvers for coupled heat, momentum, and moisture transport in urban microclimates.</li>
+        <li>Implementation of <strong>immersed boundary (IB) methods</strong> for complex tree and building geometries.</li>
+        <li>CFD post-processing utilities for temperature, turbulence, and energy flux diagnostics.</li>
+    </ul>
+
+    <h2>2. Python & MATLAB Tools</h2>
+    <p>
+        I develop Python and MATLAB scripts for <strong>sensor data processing</strong>, 
+        <strong>visualization</strong>, and <strong>model validation</strong>. 
+        These tools streamline the handling of large field datasets and simulation outputs.
+    </p>
+    <ul>
+        <li>Automated data cleaning and merging for multi-sensor Onset HOBO networks.</li>
+        <li>Time-synchronized analysis of temperature, humidity, radiation, and soil moisture.</li>
+        <li>3D and time–height plots for CFD–experiment comparison.</li>
+        <li>Machine learning integration for predicting microclimate variables and model calibration.</li>
+    </ul>
+
+    <h2>3. GitHub & Open Source Contributions</h2>
+    <p>
+        Selected tools and solvers will be made available through my 
+        <a href="https://github.com/hkasok" target="_blank" class="repo-link">GitHub profile</a>, 
+        including OpenFOAM case templates, radiation model add-ons, and post-processing scripts.
+    </p>
+
+    <h2>4. Software Ecosystem</h2>
+    <ul>
+        <li><strong>CFD:</strong> OpenFOAM (v2312–v2406, v2206-IBM) with custom solvers</li>
+        <li><strong>Pre/Post-processing:</strong> ParaView, Blender, FreeCAD, Tecplot</li>
+        <li><strong>Data Analysis:</strong> MATLAB, Python (NumPy, Pandas, Matplotlib, SciPy)</li>
+        <li><strong>Machine Learning:</strong> TensorFlow, PyTorch, Scikit-learn</li>
+        <li><strong>Version Control:</strong> GitHub, Bitbucket</li>
+    </ul>
+</div>
 
 </body>
 </html>

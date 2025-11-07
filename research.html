@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <title>Research - Harshin Kamal Asok</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #007acc; }
-        nav a:hover { text-decoration: underline; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 40px; 
+            line-height: 1.6; 
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        nav { 
+            margin-bottom: 30px; 
+            background-color: #007acc;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        .content {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #004b7a;
+        }
+        h2 {
+            color: #007acc;
+            margin-top: 25px;
+        }
+        p {
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -19,14 +57,67 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<h1>Research</h1>
-<p>My research focuses on:</p>
-<ul>
-    <li>Urban Heat Island (UHI) mitigation strategies</li>
-    <li>CFD simulations of tree canopies and microclimate</li>
-    <li>Solar radiation, energy balance, and Sky View Factor in OpenFOAM</li>
-    <li>Machine learning for microclimate prediction</li>
-</ul>
+<div class="content">
+    <h1>Research Overview</h1>
+    <p>
+        My research integrates <strong>computational fluid dynamics (CFD)</strong>, 
+        <strong>urban energy balance modeling</strong>, and 
+        <strong>data-driven methods</strong> to understand and mitigate the 
+        <em>Urban Heat Island (UHI)</em> effect in tropical cities. 
+        The goal is to develop efficient numerical frameworks that can predict 
+        microclimatic conditions and evaluate nature-based cooling strategies such as 
+        tree canopies, green roofs, and reflective materials.
+    </p>
+
+    <h2>Urban Heat Island Mitigation</h2>
+    <p>
+        Urban Heat Island (UHI) effects occur when cities trap and store heat 
+        due to dense infrastructure and limited vegetation. 
+        My research investigates how surface materials, urban geometry, and vegetation 
+        alter energy exchange between air, buildings, and the ground. 
+        I model mitigation strategies such as tree canopy shading, evapotranspiration, 
+        and cool pavements to improve outdoor thermal comfort and urban sustainability.
+    </p>
+
+    <h2>CFD Simulation of Tree Canopies and Microclimate</h2>
+    <p>
+        Using <strong>OpenFOAM</strong>, I develop and apply CFD models that capture 
+        the detailed interactions between air flow, vegetation, and solar radiation. 
+        This includes modeling aerodynamic drag, leaf area density, and radiation exchange 
+        through the canopy using the <em>Finite Volume Discrete Ordinates Method (fvDOM)</em>. 
+        The simulations are calibrated and validated with on-site field data collected 
+        under tree canopies in Miami.
+    </p>
+
+    <h2>Solar Radiation and Energy Balance Modeling</h2>
+    <p>
+        A major component of my research focuses on coupling radiative and conductive 
+        heat transfer processes using custom OpenFOAM solvers. 
+        I implement the <strong>Sky View Factor (SVF)</strong> and 
+        <strong>solar load models</strong> to represent the complex interaction of 
+        buildings and vegetation with sunlight and longwave radiation. 
+        This allows accurate prediction of surface and air temperature dynamics 
+        in heterogeneous urban environments.
+    </p>
+
+    <h2>Machine Learning for Urban Microclimate Prediction</h2>
+    <p>
+        I apply <strong>machine learning and physics-informed neural networks (PINNs)</strong> 
+        to predict urban temperature, humidity, and heat flux patterns using large-scale 
+        environmental and CFD-generated datasets. 
+        These models integrate physical constraints and data-driven learning to enable 
+        efficient prediction of microclimatic variables across space and time, 
+        providing a fast alternative to high-resolution CFD simulations.
+    </p>
+
+    <h2>Current and Future Work</h2>
+    <ul>
+        <li>Development of an immersed boundary CFD solver for urban energy simulations.</li>
+        <li>Coupling field sensor data with OpenFOAM simulations for model validation.</li>
+        <li>Exploring urban form optimization using AI-based surrogate models.</li>
+        <li>Collaborating with city planners to evaluate green infrastructure performance.</li>
+    </ul>
+</div>
 
 </body>
 </html>
