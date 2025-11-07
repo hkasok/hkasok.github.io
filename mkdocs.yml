@@ -1,15 +1,20 @@
-site_name: 'Read The Docs Jekyll Theme'
-site_description: 'Port of the Read the Docs theme to Jekyll to use with GitHub Pages.'
-repo_url: 'https://github.com/hkasok/hkasok.github.io'
-repo_name: 'GitHub'
-docs_dir: 'docs/'
-site_dir: '_site_mkdocs/'
-theme: 'readthedocs'
-prev_next_buttons_location: 'both'
-copyright: 'Harshin Kamal Asok'
+site_name: "Harshin Kamal Asok"
+site_description: "Research Website"
+repo_url: "https://github.com/hkasok/hkasok.github.io"
+repo_name: "GitHub"
+docs_dir: "docs/"
+site_dir: "_site_mkdocs/"
+theme:
+  name: "readthedocs"
+  features:
+    - navigation.tabs
+    - navigation.sections
+prev_next_buttons_location: "none"
+copyright: "© 2025 Harshin Kamal Asok"
 
-#  Define Sidebar Navigation (Removes Unwanted Items)
 nav:
+  - Home: index.md
   - Research: research.md
   - Publications: publications.md
   - Contact: contact.md
+
